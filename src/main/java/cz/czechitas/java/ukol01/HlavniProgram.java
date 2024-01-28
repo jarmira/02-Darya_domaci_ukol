@@ -13,6 +13,8 @@ public class HlavniProgram {
     zofka = new Turtle();
 
     //TODO implementace domácího úkolu
+
+      // dal pisu cykl pro tvorbu  tela
     zofka.turnRight(90);
     for (int i = 0; i < 2; i++) {
       zofka.penDown();
@@ -21,12 +23,32 @@ zofka.turnRight(90);
 zofka.move(100);
 zofka.turnRight(90);
     }
+
+    //dal jde cumacek
   zofka.turnRight(180);
     zofka.turnLeft(30);
     zofka.move(100);
     zofka.turnLeft(120);
     zofka.move(100);
+
+    //jdu na predni nohy
 zofka.turnRight(30);
+zofka.move(50);
+zofka.turnRight(180);
+zofka.move(50);
+zofka.turnLeft(110);
+zofka.move(50);
+
+//presouvam se do zadni casti tela
+zofka.penUp();
+zofka.turnLeft(180);
+zofka.move(50);
+zofka.turnRight(50);
+zofka.move(150);
+
+//kreslim zadni nohy
+zofka.penDown();
+zofka.turnRight(50);
 zofka.move(50);
 zofka.turnRight(180);
 zofka.move(50);
@@ -35,33 +57,22 @@ zofka.move(50);
 zofka.penUp();
 zofka.turnLeft(180);
 zofka.move(50);
-zofka.turnRight(50);
-zofka.move(150);
-zofka.penDown();
-zofka.turnRight(50);
-zofka.move(50);
-zofka.turnRight(180);
-zofka.move(50);
-    zofka.turnLeft(110);
-    zofka.move(50);
-    zofka.penUp();
-    zofka.turnLeft(180);
-    zofka.move(50);
-    zofka.turnLeft(30);
-    zofka.move(100);
-    zofka.turnRight(100);
-    zofka.penDown();
-    zofka.move(20);
+zofka.turnLeft(30);
+zofka.move(100);
+zofka.turnRight(100);
 
-    for (int i = 0; i < 3; i++) {
+//kreslim ocas
+zofka.penDown();
+zofka.move(20);
+for (int i = 0; i < 3; i++) {
       zofka.turnLeft(60);
       zofka.move(15);
     }
-    for (int i = 0; i < 2; i++) {
+for (int i = 0; i < 2; i++) {
       zofka.turnLeft(100);
       zofka.move(15);
     }
-    for (int i = 0; i < 3; i++) {
+for (int i = 0; i < 3; i++) {
       zofka.turnLeft(60);
       zofka.move(15);
     }
