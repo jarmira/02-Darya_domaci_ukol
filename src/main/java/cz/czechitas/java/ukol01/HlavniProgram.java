@@ -35,6 +35,7 @@ zofka.move(250);
 
 nakresliSlunce();
 
+
 //posouvam zelvu
 zofka.turnRight(-20);
 zofka.penUp();
