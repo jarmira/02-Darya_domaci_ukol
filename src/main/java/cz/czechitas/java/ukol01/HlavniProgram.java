@@ -20,6 +20,7 @@ public class HlavniProgram {
     zofka.move(200);
     zofka.turnRight(90);
     zofka.move(100);
+
     zofka.turnLeft(90);
 
    nakresliPrasatko();
