@@ -24,6 +24,7 @@ public class HlavniProgram {
 
    nakresliPrasatko();
 
+
       //ZACINAM SLUNCE
 
 //posouvam zelvu
